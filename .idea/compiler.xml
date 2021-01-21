@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="repository-rmdbs" />
         <module name="core" />
         <module name="backend" />
-        <module name="repository" />
+        <module name="repository-api" />
         <module name="utils" />
         <module name="author" />
       </profile>
@@ -18,6 +19,8 @@
       <module name="backend" target="11" />
       <module name="core" target="11" />
       <module name="repository" target="11" />
+      <module name="repository-api" target="11" />
+      <module name="repository-rmdbs" target="11" />
       <module name="utils" target="11" />
     </bytecodeTargetLevel>
   </component>
